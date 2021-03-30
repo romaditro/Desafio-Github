@@ -31,14 +31,18 @@
                     <input type="text" class="form-control" placeholder="Número de Rrepositorio por Página" id="repoPagina">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-5 mx-auto d-block w-25">Enviar</button>
+            <button type="button" id="enviar" class="btn btn-primary mt-5 mx-auto d-block w-25">Enviar</button>
           </form>
     </div>
     <hr>
     <div class="container mt-3">
         <h1 class="text-center">Resuldatos</h1>
-        <div id="resultados"></div>
+        <div class="row">
+            <div id="resultadoUsuario" class="col-sm"></div>
+            <div id="resultadosRepositorios" class="col-sm"></div>
+        </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
